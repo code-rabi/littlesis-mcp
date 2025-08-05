@@ -1,0 +1,30 @@
+{
+  "name": "littlesis-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for LittleSis API - track corporate power and accountability",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "littlesis",
+    "corporate",
+    "accountability",
+    "relationships",
+    "entities"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

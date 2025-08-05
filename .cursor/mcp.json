@@ -1,0 +1,9 @@
+{
+    "mcpServers": {
+        "littlesis": {
+            "command": "node",
+            "args": ["dist/index.js"],
+            "cwd": "/Users/nitayr/projects/private/littlesis-mcp"
+        }
+    }
+}
