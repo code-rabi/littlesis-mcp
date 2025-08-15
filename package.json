@@ -20,7 +20,7 @@
     "relationships",
     "entities"
   ],
-  "author": "",
+  "author": "Nitay Rabinovich",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
