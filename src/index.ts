@@ -106,8 +106,7 @@ export default createServer;
 
 // Check if this module is being run directly (for stdio compatibility)
 // This handles direct execution, npx, and bin script execution
-const isMainModule = import.meta.url === `file://${process.argv[1]}` || 
-                     process.argv[1]?.endsWith('index.js') ||
+const isMainModule = process.argv[1]?.endsWith('index.js') ||
                      process.argv[1]?.endsWith('dist/index.js') ||
                      process.argv[1]?.endsWith('littlesis-mcp') ||
                      process.argv[1]?.includes('/.bin/littlesis-mcp');
