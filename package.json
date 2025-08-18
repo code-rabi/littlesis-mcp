@@ -6,6 +6,7 @@
   "bin": {
     "littlesis-mcp": "dist/index.js"
   },
+  "module": "./src/index.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
